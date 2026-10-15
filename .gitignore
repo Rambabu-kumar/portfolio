@@ -1,0 +1,6 @@
+# Local editor and operating-system files
+.vscode/
+.venv/
+.DS_Store
+Thumbs.db
+desktop.ini
