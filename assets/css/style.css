@@ -466,6 +466,8 @@ h1 .hero-name { display: block; font-size: .94em; letter-spacing: -.065em; }
   .hero-meta strong { font-size: 14px; }
   .hero-visual { min-height: 350px; }
   .portrait-frame { width: min(399px, 112%); }
+  .hero-social-links { width: 100%; justify-content: center; gap: 7px; margin-inline: auto; transform: none; }
+  .hero-social-links a { width: 40px; height: 40px; }
   .portrait-caption { width: min(330px, 85%); }
   .hero-decoration-one { width: 350px; height: 350px; }
   .hero-decoration-two { width: 410px; height: 410px; }
