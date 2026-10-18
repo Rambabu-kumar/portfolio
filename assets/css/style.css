@@ -158,6 +158,8 @@ h1 .hero-name { display: block; font-size: .94em; letter-spacing: -.065em; }
 .sketch-card figcaption { display: grid; gap: 3px; padding: 13px 16px 15px; }
 .sketch-card figcaption strong { color: var(--navy); font-size: 13px; }
 .sketch-card figcaption span { color: var(--muted); font-size: 11px; line-height: 1.5; }
+.sketch-card figcaption .sketch-download { width: fit-content; margin-top: 7px; color: var(--navy); font-size: 11px; font-weight: 700; text-decoration: underline; text-decoration-color: var(--orange); text-underline-offset: 3px; }
+.sketch-card figcaption .sketch-download:hover, .sketch-card figcaption .sketch-download:focus-visible { color: var(--orange); }
 #home.section-pad { padding-bottom: 24px; }
 .section-pad.about, .section-pad.skills, .section-pad.projects { padding-block: 24px; }
 .section-pad.education, .section-pad.certificates { padding-block: 24px; }
@@ -402,6 +404,7 @@ h1 .hero-name { display: block; font-size: .94em; letter-spacing: -.065em; }
 
 @media (max-width: 900px) {
   .container { width: min(var(--container), calc(100% - 44px)); }
+  .hero-social-links { transform: none; }
   .header-inner { justify-content: space-between; }
   h1 { font-size: clamp(36px, 6vw, 56px); }
   .hero-description { font-size: clamp(16px, 2vw, 18px); }
